@@ -62,10 +62,10 @@ Für dein Projekt kannst du die folgenden Abschnitte in der `README.md` Datei an
 ## 📊 Daten
 
 **Datenquelle:** 
-<!-- Woher kommen deine Daten? -->
+https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset
 
 **Datensatz-Größe:** 
-<!-- Anzahl Zeilen/Spalten, Dateigröße -->
+20.12 MB
 
 **Wichtige Features:** 
 <!-- Beschreibung der wichtigsten Variablen -->
