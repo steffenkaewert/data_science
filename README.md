@@ -1,6 +1,6 @@
 # Track Recommendation System for DJ Sets using Spotify Audio Features 🎶
 
-> Eine kurze, prägnante Beschreibung deines Data Science Projekts in 1-2 Sätzen.
+In this project I develop a recommendation system for music tracks based on Spotify track data. The goal is to use clustering and classification methods to identify tracks that go well together and are suitable for DJ sets.
 
 ## 📊 Projektübersicht
 
