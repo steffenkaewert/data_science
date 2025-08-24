@@ -37,7 +37,7 @@
 ## 🔧 Verwendete Technologien
 
 **Programmiersprachen:**
-<!-- z.B. Python, R, SQL -->
+Python
 
 **Libraries & Frameworks:**
 <!-- z.B. pandas, scikit-learn, matplotlib, etc. -->
