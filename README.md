@@ -100,19 +100,20 @@ uv sync
 ## 🎓 Über dieses Projekt
 
 **Kontext:** 
-<!-- Im Rahmen welches Kurses/welcher Veranstaltung? -->
+StackFuel Data Science Training Portfolio Project
 
 **Zeitraum:** 
-<!-- Wann hast du das Projekt durchgeführt? -->
+25 Aug - 14 Sep 2025
 
 **Autor:** 
-<!-- Dein Name -->
+Steffen Käwert
 
 ## 📞 Kontakt
 
-**GitHub:** [@DeinUsername](https://github.com/DeinUsername)  
-**E-Mail:** deine.email@beispiel.de  
-**LinkedIn:** [Dein Profil](https://linkedin.com/in/dein-profil)
+**GitHub:** [@steffenkaewert](https://github.com/steffenkaewert)  
+**E-Mail:** steffen.kaewert@gmail.com  
+**LinkedIn:** [Steffen Käwert](https://linkedin.com/in/steffen-käwert-532ba51a4)
+
 
 ## 🙏 Danksagungen
 
