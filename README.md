@@ -12,7 +12,7 @@ Lies dir die Datei `PROJECT_SETUP.md` durch, um mehr über die Nutzung dieses Te
 Für dein Projekt kannst du die folgenden Abschnitte in der `README.md` Datei anpassen, um dein Projekt zu beschreiben und zu präsentieren. Lösche anschließend diese Anleitung.
 
 
-# [DEIN PROJEKTTITEL HIER] 🚀
+# Track Recommendation System for DJ Sets using Spotify Audio Features 🚀
 
 > Eine kurze, prägnante Beschreibung deines Data Science Projekts in 1-2 Sätzen.
 
