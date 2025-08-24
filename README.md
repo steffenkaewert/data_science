@@ -1,4 +1,4 @@
-# Track Recommendation System for DJ Sets using Spotify Audio Features 🚀
+# Track Recommendation System for DJ Sets using Spotify Audio Features 🎶
 
 > Eine kurze, prägnante Beschreibung deines Data Science Projekts in 1-2 Sätzen.
 
