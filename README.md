@@ -1,17 +1,25 @@
-# Track Recommendation System for DJ Sets using Spotify Audio Features 🎶
+# DJ Track Recommendation System using Spotify Audio Features 🎶
 
-In this project I develop a recommendation system for music tracks based on Spotify track data. The goal is to use clustering and classification methods to identify tracks that go well together and are suitable for DJ sets.
+In this project I develop a recommendation system for music tracks based on Spotify track data. The goal is to use clustering methods to identify music tracks that go well together.
 
 ## 📊 Projektübersicht
 
 **Problemstellung:** 
-<!-- Beschreibe das Problem, das du lösen möchtest -->
+DJs often face the challenge of selecting suitable tracks for a coherent set. Although streaming services already offer recommendations, these are often too general (e.g. based on genre oir likes) and do not take into account specific musical characteristics that are crucial for mixability. Genre- or like-based recommendations are often insufficient because they doesn't consider different energy levels, moods, keys, or BPM shich are crucial for an attracive set.
 
 **Ziel:** 
-<!-- Was ist das Hauptziel deines Projekts? -->
+The goal of the project is to develop a recommendation system that groups music tracks based on their musical characteristics and recommends tracks that go well together.
 
 **Methoden:** 
-<!-- Welche Techniken/Algorithmen verwendest du? -->
+- **Exploratory data analysis (EDA) for investigating musical features
+- **Clustering methods (e.g. K-Means, DBSCAN) for grouping similar tracks
+- **Similarity calculations (e.g. cosine similarity)
+- **Visualizations (e.g. PCA, heat maps) for representing music landscapes and relationships between tracks
+
+## 🎧 Motivation  
+
+As a DJ, choosing tracks that harmonize well is key to create an engaging set.  
+This project aims to go beyond standard recommendations and instead leverage musical characteristics to provide more meaningful suggestions. 
 
 ## 🎯 Key Findings
 
@@ -40,10 +48,19 @@ In this project I develop a recommendation system for music tracks based on Spot
 Python
 
 **Libraries & Frameworks:**
-<!-- z.B. pandas, scikit-learn, matplotlib, etc. -->
+- **pandas** – data manipulation & preprocessing  
+- **numpy** – numerical operations  
+- **scikit-learn** – clustering (K-Means, DBSCAN), similarity measures, PCA  
+- **matplotlib** & **seaborn** – data visualization  
+- **scipy** – additional similarity/distance calculations  
+- **plotly** – interactive visualizations (optional)
 
 **Tools:**
-<!-- z.B. Jupyter, Git, Docker, etc. -->
+- **Jupyter Notebook** – development & experimentation  
+- **Git & GitHub** – version control & portfolio presentation
+- **uv** – package management & reproducible environments 
+- **Docker** *(optional)* – reproducible project environment  
+- **VS Code** – IDE for project structuring  
 
 ## 📊 Daten
 
@@ -96,11 +113,10 @@ uv sync
 # 4. notebooks/04_results.ipynb
 ```
 
-
 ## 🎓 Über dieses Projekt
 
 **Kontext:** 
-StackFuel Data Science Training Portfolio Project
+StackFuel Data Science Training Portfolio Project 
 
 **Zeitraum:** 
 25 Aug - 14 Sep 2025
@@ -117,7 +133,7 @@ Steffen Käwert
 
 ## 🙏 Danksagungen
 
-<!-- Hier kannst du Personen oder Ressourcen erwähnen, die dir geholfen haben -->
+Mentoren der StackFuel GmbH
 
 ---
 
