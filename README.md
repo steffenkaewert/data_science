@@ -1,14 +1,14 @@
 # DJ Track Recommendation System using Spotify Audio Features 🎶
 
-In this project I develop a recommendation system for music tracks based on Spotify track data. The goal is to use clustering methods to identify music tracks that go well together.
+In this project, I develop a content-based recommendation system for music tracks using Spotify’s audio features. The goal is to apply clustering methods to identify tracks that harmonize well together.
 
 ## 📊 Projektübersicht
 
 **Problemstellung:** 
-DJs often face the challenge of selecting suitable tracks for a coherent set. Although streaming services already offer recommendations, these are often too general (e.g. based on genre oir likes) and do not take into account specific musical characteristics that are crucial for mixability. Genre- or like-based recommendations are often insufficient because they doesn't consider different energy levels, moods, keys, or BPM shich are crucial for an attracive set.
+DJs often face the challenge of selecting suitable tracks for a coherent set. Although streaming services already provide recommendations, these are often too general (e.g., based on genre or user behavior) and do not consider specific musical characteristics such as energy, key, or tempo, which are crucial for mixability.
 
 **Ziel:** 
-The goal of the project is to develop a recommendation system that groups music tracks based on their musical characteristics and recommends tracks that go well together.
+The aim of this project is to develop a content-based recommendation system that groups music tracks according to their audio features and recommends tracks that go well together.
 
 **Methoden:** 
 - **Exploratory data analysis (EDA) for investigating musical features
@@ -116,7 +116,7 @@ uv sync
 ## 🎓 Über dieses Projekt
 
 **Kontext:** 
-StackFuel Data Science Training Portfolio Project 
+StackFuel Data Science Portfolio Project Training 
 
 **Zeitraum:** 
 25 Aug - 14 Sep 2025
