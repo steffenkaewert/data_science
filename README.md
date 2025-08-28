@@ -12,14 +12,14 @@ The aim of this project is to develop a content-based recommendation system that
 
 **Methoden:** 
 - **Exploratory data analysis (EDA) for investigating musical features
-- **Clustering methods (e.g. K-Means, DBSCAN) for grouping similar tracks
-- **Similarity calculations (e.g. cosine similarity)
-- **Visualizations (e.g. PCA, heat maps) for representing music landscapes and relationships between tracks
+- **Clustering methods (e.g., K-Means, DBSCAN) for grouping similar tracks
+- **Similarity calculations (e.g., cosine similarity)
+- **Visualizations (e.g., PCA, heat maps) for representing music landscapes and relationships between tracks
 
 ## 🎧 Motivation  
 
-As a DJ, choosing tracks that harmonize well is key to create an engaging set.  
-This project aims to go beyond standard recommendations and instead leverage musical characteristics to provide more meaningful suggestions. 
+Having worked for years in Procurement and Supply Chain Management, I’ve developed a strong analytical mindset and a keen eye for patterns. Now, as a Data Science graduate, I want to apply these skills to a personal passion: DJing.
+For a DJ, selecting tracks that harmonize and flow seamlessly is crucial for an engaging set. This project goes beyond standard music recommendations by analyzing musical characteristics, aiming to provide deeper, data-driven insights into track selection.
 
 ## 🎯 Key Findings
 
@@ -67,6 +67,8 @@ Python
 **Datenquelle:** 
 https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset
 
+This dataset provides detailed insight into over 160,000 Spotify tracks with 21 features, including acousticity, danceability, energy, instrumentality, and tempo. Ideal for analyzing music trends, clustering songs, or building recommendation systems.
+
 **Datensatz-Größe:** 
 20.12 MB
 
@@ -97,8 +99,9 @@ https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset
 ### Setup
 ```bash
 # Repository klonen
-git clone [DEIN-REPO-LINK]
-cd [REPO-NAME]
+git clone https://github.com/steffenkaewert/data_science.git
+cd data_science
+uv init
 
 # Dependencies installieren
 uv sync
