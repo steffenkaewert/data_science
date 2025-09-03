@@ -79,14 +79,11 @@ popularity, duration_ms, danceability, energy, key, loudness, mode, speechiness,
 ## 🤖 Methodology
 
 ### Data Preprocessing
-- Delete Unnamed: 0, set index
-- Transform explicit to int
-- One-hot encode (OHE) of artists depending on count
-- Scale loudness and tempo to [0, 1]
-- Transform key + mode to Camelot-ID for harmonic mixing
-- Filter time_signature = 4 for EDM tracks
-- Filter track_genre on EDM-relevant genres, apply OHE
-- Feature engineering: club Factor = danceability × energy, groove = tempo × time_signature
+- Cleaning and transforming raw data (removing irrelevant columns, type adjustments, handling missing values and outliers)
+- Scaling and normalizing numerical features
+- Coding categorical variables (including artists, genres)
+- Derivation of additional features relevant to DJs (e.g., harmonic mixing, energy/danceability scores, vocal/instrumental indicators)
+- Reduction of dimensionality and visualization of feature correlations (e.g., PCA, correlation analyses)
 
 ### Constraints
 - Off-topic tracks allowed at beginning/end of sets
