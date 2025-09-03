@@ -74,7 +74,7 @@ This dataset provides detailed insight into over 114,000 Spotify tracks with 21 
 20.12 MB
 
 **Key features:** 
-duration_ms, explicit, danceability, energy, key, loudness, mode, speechiness, instrumentalness, acousticness, liveness, valence, tempo, time_signature, track_genre
+popularity, duration_ms, danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, valence, tempo, time_signature, track_genre
 
 ## 🤖 Methodology
 
@@ -92,7 +92,7 @@ duration_ms, explicit, danceability, energy, key, loudness, mode, speechiness, i
 - Off-topic tracks allowed at beginning/end of sets
 - Last third of set can feature more popular tracks (popularity)
 - After a track with vocals (high speechiness, low instrumentalnes), at least two tracks without vocals (vice versa) should follow in order to avoid confusing the audience.
-- Set structure: Opening, Highlight, Popularity, Closing Tracks considered; system suggests tracks based on remaining duration and segment rules
+- Set structure: Opening, Highlight, Popularity, Closing Tracks considered; machine suggests tracks based on remaining duration and segment rules
 
 ### Modeling Approach
 Clustering (K-Means, DBSCAN) for track grouping
